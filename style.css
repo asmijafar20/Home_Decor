@@ -160,7 +160,7 @@
   }
   
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) and (min-width: 300px) {
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
@@ -170,7 +170,7 @@
       margin-bottom: 35px;
     }
   }
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 480px) and (min-width: 300px) {
     .logo {
       font-size: 150px;
     }
